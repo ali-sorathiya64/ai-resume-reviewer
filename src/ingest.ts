@@ -52,7 +52,6 @@ const indexDocument = async (): Promise<void> => {
         throw new Error("PINECONE_INDEX_NAME missing in env");
     }
 
-
     const pineconeIndex = pinecone.index(indexName);
 
 
