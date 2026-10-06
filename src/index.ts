@@ -1,4 +1,3 @@
-
 import express ,{Request,Response} from 'express';  
 import dotenv from 'dotenv'; 
 import { agent } from './agent';
@@ -24,8 +23,6 @@ app.post("/api/chat" , async(req :Request,res :Response) =>{
 
 
 })
-
-
 
 app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`);
