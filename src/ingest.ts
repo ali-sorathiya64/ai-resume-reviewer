@@ -7,7 +7,6 @@ import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
 import { Pinecone } from "@pinecone-database/pinecone";
 import { PineconeStore } from "@langchain/pinecone";
 
-
 const indexDocument = async (): Promise<void> => {
 
     const PDF_PATH: string = "./as-resume.pdf";
