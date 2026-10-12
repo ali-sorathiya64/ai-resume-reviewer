@@ -2,4 +2,3 @@
 node_modules/
 dist/
 ./src/practice
-.env.example
